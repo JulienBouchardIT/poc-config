@@ -1,0 +1,12 @@
+{
+  "title": "Schema - example",
+  "type": "object",
+  "required": true,
+  "properties": {
+    "hello": {
+      "title": "Hello",
+      "type": "string",
+      "required": true
+    }
+  }
+}
