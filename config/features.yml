@@ -1,0 +1,68 @@
+features:
+  analyse:
+    analytics: true
+    atp: true
+    checker_assistant: true
+    netplan: true
+    netplan_customer_impact_simulator: true
+    netplan_reach_map: true
+    netplan_reach_map_web: true
+    netplan_service_opt: true
+    netplan_sevice_opt_sync: true
+    netplan_time_table_opt: true
+    rider: true
+  clientele:
+    comments: true
+    comments_web: true
+    hasinfo_web: true
+    hastinfo: true
+    hastop: true
+  connect:
+    connect_avl: true
+    connect_daily_notification: true
+    connect_external_signinout: true
+    connect_gtfs_rt: true
+    connect_interface: true
+    connect_ivr: true
+    connect_notification: true
+    connect_oig_oir_w: true
+    connect_vehicule_withdrawals: true
+  operation:
+    bid: true
+    bid_lookup: true
+    bid_monitor: true
+    bid_web: true
+    daily_crew: true
+    daily_vehicule: true
+    dispatch_assistant: true
+    dispatch_assistant_web: true
+    epm: true
+    plan_bus: true
+    plan_crew: true
+    plan_maint: true
+    self_service: true
+    signin_out: true
+    yard_asistant: true
+    yard_asistant_web: true
+  operation_tasks:
+    avl_importer_task: true
+    'cal_bank_to_last_date_task:': false
+    cleanup_sares_task: true
+    gtfs_rt_task: true
+    late_sign_in_abs_applier_task: true
+    notif_state_task: true
+    pers_work_ros_pref_copier_task: true
+    send_emp_email_notif_task: true
+    send_emp_sms_notif_task: true
+    update_acate_read_att_task: true
+    cal_bank_to_last_date_task:
+      enable: false
+      name: "calcBankToLastDateTask"
+  scheduling:
+    crew: true
+    crewopt: true
+    geo: true
+    minbus: true
+    minrail: true
+    roster: true
+    vehicule: true
